@@ -1,0 +1,53 @@
+
+@media (max-width: 998px) {
+    
+    .menu__list {
+        flex-wrap: wrap;
+        justify-content: end;
+        .menu__item {
+            margin: 10px;
+            font-size: 14px;
+        }
+    }
+    
+    .intro__laptop {
+        width: 252px;
+        margin: auto;
+    }
+
+
+}
+@media (max-width: 1067px) {
+    .images__img {
+        width: 180px;
+        height: 180px;
+    }
+    }
+
+@media (max-width: 768px) {
+    .intro__box {
+        max-width: 350px;
+        
+    }
+    .intro__btn {
+        width: 170px;
+        height: 50px;
+    }
+    .images__box {
+        
+        
+        
+    }
+}
+
+@media (max-width: 615px) {
+    .intro__box {
+        max-width: 100%;
+        
+    }
+    .intro__inner{
+        display: block;
+        text-align: center;
+    }
+
+}
